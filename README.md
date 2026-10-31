@@ -8,16 +8,11 @@ A payment service that accepts HTTP requests and writes to two tables in a singl
 
 ## Stack
 
-- Scala 3 + ZIO 2
-- Tapir + Netty (HTTP server)
-- Slick (database access)
+- Scala 2 + ZIO 
+- Tapir + Netty 
+- Slick 
 - PostgreSQL
-- Python (load generator)
-
-## Modules
-
-- `payment-service` — HTTP service, accepts `POST /payment`, writes payment + outbox in one transaction
-- `kafka-producer` — polls `payment_outbox` for unsent records, marks them as sent
+- Python 
 
 ## Why Outbox
 
