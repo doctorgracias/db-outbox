@@ -6,13 +6,10 @@ A minimal implementation of the Transactional Outbox pattern built for learning 
 
 A payment service that accepts HTTP requests and writes to two tables in a single transaction: the main `payment` table and the `payment_outbox` table. A separate poller reads unprocessed outbox records and forwards them to Kafka (stub for now), then marks them as sent.
 
-## Stack
-
-- Scala 2 + ZIO 
-- Tapir + Netty 
-- Slick 
-- PostgreSQL
-- Python 
+## Modules
+- payment-producer 
+- service-db-saver
+- service-event-maker
 
 ## Why Outbox
 
