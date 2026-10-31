@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="root:test [file:/C:/Users/rulko/Desktop/transaction_outbox/payment-producer/]" external.linked.project.path="$MODULE_DIR$/../../.." external.root.project.path="$MODULE_DIR$/../../.." external.system.id="SBT" external.system.module.type="sbtSourceSet" type="JAVA_MODULE" version="4">
+  <component name="DisplayModuleName">
+    <option name="name" value="payment-producer.test" />
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_17">
+    <output-test url="file://$MODULE_DIR$/../../../target/scala-2.13/test-classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../src/test">
+      <sourceFolder url="file://$MODULE_DIR$/../../../src/test/scala" isTestSource="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../target/scala-2.13/resource_managed/test" />
+    <content url="file://$MODULE_DIR$/../../../target/scala-2.13/src_managed/test" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="sbt: scala-sdk-2.13.14" level="project" />
+    <orderEntry type="module" module-name="payment-producer.main" />
+    <orderEntry type="library" name="sbt: org.scala-lang:scala-library:2.13.14:jar" level="project" />
+    <orderEntry type="library" name="sbt: dev.zio:zio_2.13:2.1.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: dev.zio:zio-streams_2.13:2.1.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.typesafe.slick:slick_2.13:3.5.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.typesafe.slick:slick-hikaricp_2.13:3.5.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.postgresql:postgresql:42.7.3:jar" level="project" />
+    <orderEntry type="library" name="sbt: ch.qos.logback:logback-classic:1.5.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: dev.zio:zio-internal-macros_2.13:2.1.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: dev.zio:zio-stacktracer_2.13:2.1.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: dev.zio:izumi-reflect_2.13:2.3.8:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.slf4j:slf4j-api:2.0.13:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.typesafe:config:1.4.3:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.reactivestreams:reactive-streams:1.0.4:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.zaxxer:HikariCP:4.0.3:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.checkerframework:checker-qual:3.42.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: ch.qos.logback:logback-core:1.5.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: dev.zio:izumi-reflect-thirdparty-boopickle-shaded_2.13:2.3.8:jar" level="project" />
+  </component>
+</module>
