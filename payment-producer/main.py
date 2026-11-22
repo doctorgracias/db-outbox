@@ -11,7 +11,7 @@ def random_payment():
         "amount":     random.randint(10, 10000),
         "sender":     sender,
         "receiver":   receiver,
-        "created_at": "2024-01-15T10:30:00Z"  # ← добавь это
+        "created_at": "2024-01-15T10:30:00Z"  
     }
 
 while True:
